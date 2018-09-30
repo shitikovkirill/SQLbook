@@ -6,8 +6,7 @@ After=network.target
 User=vagrant
 Group=vagrant
 WorkingDirectory=/home/vagrant/pgAdmin4/
-Environment="PATH=/home/vagrant/pgAdmin4/bin"
-ExecStart="/home/vagrant/pgAdmin4/bin/python /home/vagrant/pgAdmin4/lib/python3.4/site-packages/pgadmin4/pgAdmin4.py"
+ExecStart=/home/vagrant/pgAdmin4/bin/python /home/vagrant/pgAdmin4/lib/python3.4/site-packages/pgadmin4/pgAdmin4.py
 PrivateTmp=true
 
 [Install]

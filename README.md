@@ -29,6 +29,8 @@ python $(find . -wholename "*pgadmin4/setup.py")
 python $(find . -wholename "*pgadmin4/pgAdmin4.py")
 ```
 
+after settings for auto start run `sudo systemctl enable pgadmin4`
+
 ## DataGrip
 
 ```
