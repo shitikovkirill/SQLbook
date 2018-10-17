@@ -41,7 +41,7 @@ Vagrant.configure("2") do |config|
 
         OLD_CONF_F=$(find . -wholename "*pgadmin4/config.py")
         NEW_CONF_F=${OLD_CONF_F/config.py/config_local.py}
-        cp /vagrant/script/config.py $NEW_CONF_F
+        sudo cp /vagrant/scripts/config.py $NEW_CONF_F
 
         # python $(find . -wholename "*pgadmin4/setup.py")
         # python $(find . -wholename "*pgadmin4/pgAdmin4.py")
