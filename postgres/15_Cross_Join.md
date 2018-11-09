@@ -1,0 +1,14 @@
+```
+SELECT * 
+FROM T1
+CROSS JOIN T2;
+```
+```
+SELECT * 
+FROM T1, T2;
+```
+```
+SELECT *
+FROM T1
+INNER JOIN T2 ON TRUE;
+```
